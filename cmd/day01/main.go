@@ -60,6 +60,7 @@ func main() {
 	}
 
 	// Final Answer
-	fmt.Printf("The key values %d appeared %d times", keyValue, dial.KeyValueSeen)
+	fmt.Printf("The key value %d was clicked to %d times\n", keyValue, dial.KeyValueSeen)
+	fmt.Printf("The key value %d was passed %d times", keyValue, dial.KeyValuePassed)
 
 }
